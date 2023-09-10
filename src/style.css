@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color: #7091F5;
+}
+.filters span{
+    cursor: pointer;
+    &:not(:last-child){
+        margin-right: .5rem;
+    }
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label.checked{
+    text-decoration: line-through;
+}
